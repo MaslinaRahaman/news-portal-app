@@ -62,7 +62,8 @@ Also, make sure the Github branch is up-to-date with your code changes. After th
 
 ## Demo
 
-The demo page is hosted on Netlify you can access on this links https://stoic-colden-3155ca.netlify.app/,https://6101bc3a729a4700992d15cc--stoic-colden-3155ca.netlify.app/
+The demo page is hosted on Netlify you can access on this links https://stoic-colden-3155ca.netlify.app/,
+ https://6101bc3a729a4700992d15cc--stoic-colden-3155ca.netlify.app/
 
 
 ## Author

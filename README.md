@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# News Portal Client
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is The News Portal site It simulates a real news portal like CNN, BCC and
+others. 
 
-## Available Scripts
+## Running the project locally
 
-In the project directory, you can run:
+ you need to follow the described steps for run it locally.
 
-### `npm start`
+### Tech stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. [React JS]
+2. [Semantic ui]
+3. [Axios]
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Setup (Front-end)
 
-### `npm test`
+1. Clone this repository
+2. Run these commands
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   2.1 Install all modules listed as dependencies in `package.json` file
 
-### `npm run build`
+```
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2.2 Run local client
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+npm run start
+```
 
-### `npm run eject`
+3. Open the browser in http://localhost:3000
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Deployment
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project is using Netify as deployment environment, which requires [a Netlify account](https://app.netlify.com/signup) 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Install netflify cli using the following command
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
+npm install netlify-cli -g
 
-## Learn More
+```
+After installing Netligy CLI  locally inside , check if it's working properly running these commands in your terminal
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+netlify deploy
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+deploy path ./build
 
-### Code Splitting
+netlify deploy --prod
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Also, make sure the Github branch is up-to-date with your code changes. After that run these commands:
 
-### Analyzing the Bundle Size
+```
+git push origin master
+git push heroku master
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+If you prefer, you can just run `./deploy.sh`.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Demo
 
-### Advanced Configuration
+The demo page is hosted on Netlify you can access on this links https://stoic-colden-3155ca.netlify.app/,https://6101bc3a729a4700992d15cc--stoic-colden-3155ca.netlify.app/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+_Maslina Rahaman_
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- <https://github.com/MaslinaRahaman>

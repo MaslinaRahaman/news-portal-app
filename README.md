@@ -9,9 +9,9 @@ others.
 
 ### Tech stack
 
-1. [React JS]
-2. [Semantic ui]
-3. [Axios]
+1. React JS
+2. Semantic ui
+3. Axios
 
 ## Setup (Front-end)
 
@@ -47,20 +47,17 @@ After installing Netligy CLI  locally inside , check if it's working properly ru
 
 ```
 netlify deploy
-
 deploy path ./build
-
 netlify deploy --prod
 ```
 
 Also, make sure the Github branch is up-to-date with your code changes. After that run these commands:
 
 ```
-git push origin master
-git push heroku master
+ git push origin HEAD:main
+
 ```
 
-If you prefer, you can just run `./deploy.sh`.
 
 
 ## Demo
